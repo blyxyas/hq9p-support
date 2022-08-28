@@ -6,8 +6,10 @@
     "engines": {
         "vscode": "^1.70.0"
     },
+	"repository": {"url": "https://github.com/blyxyas/hq9p-support"},
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+		"Language Packs"
     ],
     "contributes": {
         "languages": [{
