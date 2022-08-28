@@ -1,0 +1,25 @@
+{
+    "name": "hq9p-support",
+    "displayName": "hq9p-support",
+    "description": "VSCode support for the great programming language of HQ9+",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "hq9p",
+            "aliases": ["HQ9+", "hq9p"],
+            "extensions": [".hq9p",".hq9","hq9+"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "hq9p",
+            "scopeName": "source.hq9p",
+            "path": "./syntaxes/hq9p.tmLanguage.json"
+        }]
+    }
+}

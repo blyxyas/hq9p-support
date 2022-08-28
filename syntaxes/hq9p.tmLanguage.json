@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "HQ9+",
+	"patterns": [
+		{
+			"include": "#entities"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [{
+				"name": "comment",
+				"match": "[^HQ9+]+"
+			}]
+		},
+		"entities": {
+			"patterns": [
+				{
+					"name": "entity.name",
+					"match": "([HQ9+])"
+				}
+			]
+		}
+	},
+	"scopeName": "source.hq9p"
+}
