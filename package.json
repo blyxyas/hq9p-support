@@ -3,6 +3,7 @@
     "displayName": "hq9p-support",
     "description": "VSCode support for the great programming language of HQ9+",
     "version": "0.0.1",
+	"publisher": "Blyxyas",
     "engines": {
         "vscode": "^1.70.0"
     },
